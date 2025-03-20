@@ -1,0 +1,433 @@
+Variable,Metric,RADI_Tier,Value
+Median Income,Average,Tier 1,80190.1129032258
+Median Income,Standard Deviation,Tier 1,10028.833492313655
+Median Income,Minimum,Tier 1,65537.0
+Median Income,Maximum,Tier 1,106255.0
+Median Income,Average,Tier 2,67024.16975308642
+Median Income,Standard Deviation,Tier 2,6623.291835786227
+Median Income,Minimum,Tier 2,51250.0
+Median Income,Maximum,Tier 2,93655.0
+Median Income,Average,Tier 3,56674.0
+Median Income,Standard Deviation,Tier 3,5690.307986688675
+Median Income,Minimum,Tier 3,40380.0
+Median Income,Maximum,Tier 3,79505.0
+Median Income,Average,Tier 4,48606.81784386617
+Median Income,Standard Deviation,Tier 4,5342.150943371963
+Median Income,Minimum,Tier 4,35084.0
+Median Income,Maximum,Tier 4,67689.0
+Median Income,Average,Tier 5,42235.81553398058
+Median Income,Standard Deviation,Tier 5,5480.244204784131
+Median Income,Minimum,Tier 5,25425.0
+Median Income,Maximum,Tier 5,57928.0
+Median Income,Average,Tier 6,35061.620689655174
+Median Income,Standard Deviation,Tier 6,4931.005963824313
+Median Income,Minimum,Tier 6,28321.0
+Median Income,Maximum,Tier 6,47000.0
+Poverty 18-64,Average,Tier 1,0.0838225806451613
+Poverty 18-64,Standard Deviation,Tier 1,0.01939200798161355
+Poverty 18-64,Minimum,Tier 1,0.024
+Poverty 18-64,Maximum,Tier 1,0.125
+Poverty 18-64,Average,Tier 2,0.11637037037037035
+Poverty 18-64,Standard Deviation,Tier 2,0.024688621585169837
+Poverty 18-64,Minimum,Tier 2,0.034
+Poverty 18-64,Maximum,Tier 2,0.203
+Poverty 18-64,Average,Tier 3,0.15799526066350708
+Poverty 18-64,Standard Deviation,Tier 3,0.03593461965291062
+Poverty 18-64,Minimum,Tier 3,0.0579999999999999
+Poverty 18-64,Maximum,Tier 3,0.325
+Poverty 18-64,Average,Tier 4,0.19910780669144978
+Poverty 18-64,Standard Deviation,Tier 4,0.03868644878281256
+Poverty 18-64,Minimum,Tier 4,0.102
+Poverty 18-64,Maximum,Tier 4,0.359
+Poverty 18-64,Average,Tier 5,0.2506893203883495
+Poverty 18-64,Standard Deviation,Tier 5,0.05003391577685054
+Poverty 18-64,Minimum,Tier 5,0.136
+Poverty 18-64,Maximum,Tier 5,0.426
+Poverty 18-64,Average,Tier 6,0.292
+Poverty 18-64,Standard Deviation,Tier 6,0.05615603262339675
+Poverty 18-64,Minimum,Tier 6,0.18
+Poverty 18-64,Maximum,Tier 6,0.417
+Unemployment,Average,Tier 1,0.02690184201612903
+Unemployment,Standard Deviation,Tier 1,0.0073923039758205245
+Unemployment,Minimum,Tier 1,0.0133748056
+Unemployment,Maximum,Tier 1,0.0524395329
+Unemployment,Average,Tier 2,0.03341154015771605
+Unemployment,Standard Deviation,Tier 2,0.01002140909273475
+Unemployment,Minimum,Tier 2,0.0134730539
+Unemployment,Maximum,Tier 2,0.0671621344
+Unemployment,Average,Tier 3,0.038526146235545025
+Unemployment,Standard Deviation,Tier 3,0.010819468376229227
+Unemployment,Minimum,Tier 3,0.0174587779
+Unemployment,Maximum,Tier 3,0.116035613
+Unemployment,Average,Tier 4,0.042481311727137545
+Unemployment,Standard Deviation,Tier 4,0.010948460364244319
+Unemployment,Minimum,Tier 4,0.0233050847
+Unemployment,Maximum,Tier 4,0.0963484382
+Unemployment,Average,Tier 5,0.051892206201941744
+Unemployment,Standard Deviation,Tier 5,0.014552202050846147
+Unemployment,Minimum,Tier 5,0.0296411856
+Unemployment,Maximum,Tier 5,0.1300160514
+Unemployment,Average,Tier 6,0.06347838044137931
+Unemployment,Standard Deviation,Tier 6,0.01693525633433388
+Unemployment,Minimum,Tier 6,0.0381791483
+Unemployment,Maximum,Tier 6,0.1095137249
+Lacking Complete Plumbing Facilities,Average,Tier 1,0.010661044844434595
+Lacking Complete Plumbing Facilities,Standard Deviation,Tier 1,0.012066239684077804
+Lacking Complete Plumbing Facilities,Minimum,Tier 1,0.0014221379473808
+Lacking Complete Plumbing Facilities,Maximum,Tier 1,0.0853828306264501
+Lacking Complete Plumbing Facilities,Average,Tier 2,0.014965457254602813
+Lacking Complete Plumbing Facilities,Standard Deviation,Tier 2,0.01277775634726908
+Lacking Complete Plumbing Facilities,Minimum,Tier 2,0.0012269938650306
+Lacking Complete Plumbing Facilities,Maximum,Tier 2,0.1250875963559916
+Lacking Complete Plumbing Facilities,Average,Tier 3,0.02579529225228086
+Lacking Complete Plumbing Facilities,Standard Deviation,Tier 3,0.01736349392781532
+Lacking Complete Plumbing Facilities,Minimum,Tier 3,0.0008435970980259
+Lacking Complete Plumbing Facilities,Maximum,Tier 3,0.1180555555555555
+Lacking Complete Plumbing Facilities,Average,Tier 4,0.03442364096268228
+Lacking Complete Plumbing Facilities,Standard Deviation,Tier 4,0.022027248444172344
+Lacking Complete Plumbing Facilities,Minimum,Tier 4,0.0026905829596412
+Lacking Complete Plumbing Facilities,Maximum,Tier 4,0.2047745358090185
+Lacking Complete Plumbing Facilities,Average,Tier 5,0.051675058456394314
+Lacking Complete Plumbing Facilities,Standard Deviation,Tier 5,0.03175501733272312
+Lacking Complete Plumbing Facilities,Minimum,Tier 5,0.0017282010997643
+Lacking Complete Plumbing Facilities,Maximum,Tier 5,0.229062924400181
+Lacking Complete Plumbing Facilities,Average,Tier 6,0.05560524264914332
+Lacking Complete Plumbing Facilities,Standard Deviation,Tier 6,0.031215163725059072
+Lacking Complete Plumbing Facilities,Minimum,Tier 6,0.0135924645284368
+Lacking Complete Plumbing Facilities,Maximum,Tier 6,0.1608896012823081
+65+,Average,Tier 1,0.19926129861145356
+65+,Standard Deviation,Tier 1,0.042596503181504944
+65+,Minimum,Tier 1,0.1019706630979558
+65+,Maximum,Tier 1,0.3124877153901592
+65+,Average,Tier 2,0.20924126917694685
+65+,Standard Deviation,Tier 2,0.04459181668188232
+65+,Minimum,Tier 2,0.0958269220073784
+65+,Maximum,Tier 2,0.3598615916955017
+65+,Average,Tier 3,0.21179403838253869
+65+,Standard Deviation,Tier 3,0.04491608260248445
+65+,Minimum,Tier 3,0.0518226135040745
+65+,Maximum,Tier 3,0.3758705448586645
+65+,Average,Tier 4,0.2039983131308169
+65+,Standard Deviation,Tier 4,0.042312488922310106
+65+,Minimum,Tier 4,0.1190230812608163
+65+,Maximum,Tier 4,0.3779634999147194
+65+,Average,Tier 5,0.2130287117309857
+65+,Standard Deviation,Tier 5,0.0505966035718497
+65+,Minimum,Tier 5,0.0850304429981104
+65+,Maximum,Tier 5,0.4282727985367128
+65+,Average,Tier 6,0.19344597393401788
+65+,Standard Deviation,Tier 6,0.04658688763122657
+65+,Minimum,Tier 6,0.0881246641590542
+65+,Maximum,Tier 6,0.3103601600711427
+White Population,Average,Tier 1,0.8682566264987307
+White Population,Standard Deviation,Tier 1,0.06704040055809274
+White Population,Minimum,Tier 1,0.6617961165048544
+White Population,Maximum,Tier 1,0.9642243262927896
+White Population,Average,Tier 2,0.8574719365428985
+White Population,Standard Deviation,Tier 2,0.1059685314945798
+White Population,Minimum,Tier 2,0.3001083863975071
+White Population,Maximum,Tier 2,1.032453637660485
+White Population,Average,Tier 3,0.8238820167718388
+White Population,Standard Deviation,Tier 3,0.12553657997968923
+White Population,Minimum,Tier 3,0.4107154073236606
+White Population,Maximum,Tier 3,0.989646772228989
+White Population,Average,Tier 4,0.717766208599613
+White Population,Standard Deviation,Tier 4,0.1909413183311685
+White Population,Minimum,Tier 4,0.1874633369647196
+White Population,Maximum,Tier 4,0.9916939890710382
+White Population,Average,Tier 5,0.5780764418364508
+White Population,Standard Deviation,Tier 5,0.23166627795765263
+White Population,Minimum,Tier 5,0.1329194299421476
+White Population,Maximum,Tier 5,0.9872881355932204
+White Population,Average,Tier 6,0.4216604331563304
+White Population,Standard Deviation,Tier 6,0.2717940200391629
+White Population,Minimum,Tier 6,0.1002148073893741
+White Population,Maximum,Tier 6,0.9929558862375628
+Percent Less Than High School Graduate,Average,Tier 1,0.134758064516129
+Percent Less Than High School Graduate,Standard Deviation,Tier 1,0.07534721496346011
+Percent Less Than High School Graduate,Minimum,Tier 1,0.035
+Percent Less Than High School Graduate,Maximum,Tier 1,0.45
+Percent Less Than High School Graduate,Average,Tier 2,0.15112654320987653
+Percent Less Than High School Graduate,Standard Deviation,Tier 2,0.0701891696841812
+Percent Less Than High School Graduate,Minimum,Tier 2,0.0
+Percent Less Than High School Graduate,Maximum,Tier 2,0.612
+Percent Less Than High School Graduate,Average,Tier 3,0.16300947867298576
+Percent Less Than High School Graduate,Standard Deviation,Tier 3,0.0809846758632039
+Percent Less Than High School Graduate,Minimum,Tier 3,0.0
+Percent Less Than High School Graduate,Maximum,Tier 3,0.767
+Percent Less Than High School Graduate,Average,Tier 4,0.18180669144981412
+Percent Less Than High School Graduate,Standard Deviation,Tier 4,0.08104292091036881
+Percent Less Than High School Graduate,Minimum,Tier 4,0.008
+Percent Less Than High School Graduate,Maximum,Tier 4,0.529
+Percent Less Than High School Graduate,Average,Tier 5,0.21909708737864078
+Percent Less Than High School Graduate,Standard Deviation,Tier 5,0.10507649077220889
+Percent Less Than High School Graduate,Minimum,Tier 5,0.01
+Percent Less Than High School Graduate,Maximum,Tier 5,0.773
+Percent Less Than High School Graduate,Average,Tier 6,0.17513793103448275
+Percent Less Than High School Graduate,Standard Deviation,Tier 6,0.10385007192305476
+Percent Less Than High School Graduate,Minimum,Tier 6,0.002
+Percent Less Than High School Graduate,Maximum,Tier 6,0.462
+Uninsured,Average,Tier 1,0.09258584609677419
+Uninsured,Standard Deviation,Tier 1,0.033823656481149086
+Uninsured,Minimum,Tier 1,0.040613661
+Uninsured,Maximum,Tier 1,0.1790972335
+Uninsured,Average,Tier 2,0.09852488027839505
+Uninsured,Standard Deviation,Tier 2,0.036619208098265806
+Uninsured,Minimum,Tier 2,0.0279942709
+Uninsured,Maximum,Tier 2,0.2378575143
+Uninsured,Average,Tier 3,0.1256824329623223
+Uninsured,Standard Deviation,Tier 3,0.049529229211705786
+Uninsured,Minimum,Tier 3,0.0506455417
+Uninsured,Maximum,Tier 3,0.286966046
+Uninsured,Average,Tier 4,0.141013836632342
+Uninsured,Standard Deviation,Tier 4,0.047621119213576694
+Uninsured,Minimum,Tier 4,0.0537959944
+Uninsured,Maximum,Tier 4,0.2672813434
+Uninsured,Average,Tier 5,0.1385542980194175
+Uninsured,Standard Deviation,Tier 5,0.04530703918733976
+Uninsured,Minimum,Tier 5,0.0576374745
+Uninsured,Maximum,Tier 5,0.2945103858
+Uninsured,Average,Tier 6,0.15634723287931035
+Uninsured,Standard Deviation,Tier 6,0.07083767564889648
+Uninsured,Minimum,Tier 6,0.0759493671
+Uninsured,Maximum,Tier 6,0.3871244635
+Percent With Internet,Average,Tier 1,0.8840680389806451
+Percent With Internet,Standard Deviation,Tier 1,0.034641430905039204
+Percent With Internet,Minimum,Tier 1,0.8030050083
+Percent With Internet,Maximum,Tier 1,0.9552304965
+Percent With Internet,Average,Tier 2,0.846530638712963
+Percent With Internet,Standard Deviation,Tier 2,0.030127353018643995
+Percent With Internet,Minimum,Tier 2,0.7547724693
+Percent With Internet,Maximum,Tier 2,0.9309189329
+Percent With Internet,Average,Tier 3,0.8033188820225119
+Percent With Internet,Standard Deviation,Tier 3,0.04197059256123837
+Percent With Internet,Minimum,Tier 3,0.6245247148
+Percent With Internet,Maximum,Tier 3,0.9022713321
+Percent With Internet,Average,Tier 4,0.7489542060282528
+Percent With Internet,Standard Deviation,Tier 4,0.054809945884209774
+Percent With Internet,Minimum,Tier 4,0.5734561753
+Percent With Internet,Maximum,Tier 4,0.8804848485
+Percent With Internet,Average,Tier 5,0.7002702108553398
+Percent With Internet,Standard Deviation,Tier 5,0.06982967879587978
+Percent With Internet,Minimum,Tier 5,0.5332376853
+Percent With Internet,Maximum,Tier 5,0.8695652174
+Percent With Internet,Average,Tier 6,0.6324241583551724
+Percent With Internet,Standard Deviation,Tier 6,0.1021358017880746
+Percent With Internet,Minimum,Tier 6,0.3596938776
+Percent With Internet,Maximum,Tier 6,0.7907438521
+Long Commutes,Average,Tier 1,0.2458225806451613
+Long Commutes,Standard Deviation,Tier 1,0.1008513797289412
+Long Commutes,Minimum,Tier 1,0.075
+Long Commutes,Maximum,Tier 1,0.522
+Long Commutes,Average,Tier 2,0.28202777777777777
+Long Commutes,Standard Deviation,Tier 2,0.10643931322298546
+Long Commutes,Minimum,Tier 2,0.067
+Long Commutes,Maximum,Tier 2,0.699
+Long Commutes,Average,Tier 3,0.3156042654028436
+Long Commutes,Standard Deviation,Tier 3,0.09930632223061017
+Long Commutes,Minimum,Tier 3,0.084
+Long Commutes,Maximum,Tier 3,0.606
+Long Commutes,Average,Tier 4,0.36812267657992565
+Long Commutes,Standard Deviation,Tier 4,0.10774699067156972
+Long Commutes,Minimum,Tier 4,0.03
+Long Commutes,Maximum,Tier 4,0.699
+Long Commutes,Average,Tier 5,0.3759126213592233
+Long Commutes,Standard Deviation,Tier 5,0.1242059569469207
+Long Commutes,Minimum,Tier 5,0.129
+Long Commutes,Maximum,Tier 5,0.733
+Long Commutes,Average,Tier 6,0.35710344827586205
+Long Commutes,Standard Deviation,Tier 6,0.14823348976423897
+Long Commutes,Minimum,Tier 6,0.019
+Long Commutes,Maximum,Tier 6,0.555
+Some College or Associate's Degree,Average,Tier 1,0.16523256325602845
+Some College or Associate's Degree,Standard Deviation,Tier 1,0.029052207069805353
+Some College or Associate's Degree,Minimum,Tier 1,0.1081483846931715
+Some College or Associate's Degree,Maximum,Tier 1,0.2364876683575301
+Some College or Associate's Degree,Average,Tier 2,0.1636218825066141
+Some College or Associate's Degree,Standard Deviation,Tier 2,0.02380373603150907
+Some College or Associate's Degree,Minimum,Tier 2,0.090982799559854
+Some College or Associate's Degree,Maximum,Tier 2,0.2393196202531645
+Some College or Associate's Degree,Average,Tier 3,0.15540429318827717
+Some College or Associate's Degree,Standard Deviation,Tier 3,0.02477890956285406
+Some College or Associate's Degree,Minimum,Tier 3,0.078522708367992
+Some College or Associate's Degree,Maximum,Tier 3,0.2176789314516129
+Some College or Associate's Degree,Average,Tier 4,0.14812623348807666
+Some College or Associate's Degree,Standard Deviation,Tier 4,0.02511394910755513
+Some College or Associate's Degree,Minimum,Tier 4,0.0463355542095699
+Some College or Associate's Degree,Maximum,Tier 4,0.2102008554956295
+Some College or Associate's Degree,Average,Tier 5,0.1462399753183789
+Some College or Associate's Degree,Standard Deviation,Tier 5,0.02679173059871154
+Some College or Associate's Degree,Minimum,Tier 5,0.067394499265169
+Some College or Associate's Degree,Maximum,Tier 5,0.2052069261942773
+Some College or Associate's Degree,Average,Tier 6,0.13177190379067763
+Some College or Associate's Degree,Standard Deviation,Tier 6,0.030008647646547353
+Some College or Associate's Degree,Minimum,Tier 6,0.0782960094291968
+Some College or Associate's Degree,Maximum,Tier 6,0.1988476586379753
+No Vehicle Available,Average,Tier 1,0.015300577669714198
+No Vehicle Available,Standard Deviation,Tier 1,0.0063703552107611
+No Vehicle Available,Minimum,Tier 1,0.0
+No Vehicle Available,Maximum,Tier 1,0.0278110844657607
+No Vehicle Available,Average,Tier 2,0.020992451254635648
+No Vehicle Available,Standard Deviation,Tier 2,0.007787527636873928
+No Vehicle Available,Minimum,Tier 2,0.0024693898549233
+No Vehicle Available,Maximum,Tier 2,0.0511066117433498
+No Vehicle Available,Average,Tier 3,0.024213812536204027
+No Vehicle Available,Standard Deviation,Tier 3,0.00851051026990792
+No Vehicle Available,Minimum,Tier 3,0.0039443637118538
+No Vehicle Available,Maximum,Tier 3,0.0539978094194961
+No Vehicle Available,Average,Tier 4,0.02816130140670514
+No Vehicle Available,Standard Deviation,Tier 4,0.00942209805151123
+No Vehicle Available,Minimum,Tier 4,0.0058262711864406
+No Vehicle Available,Maximum,Tier 4,0.0647132560325916
+No Vehicle Available,Average,Tier 5,0.03626373719469359
+No Vehicle Available,Standard Deviation,Tier 5,0.014638461610705963
+No Vehicle Available,Minimum,Tier 5,0.0071138211382113
+No Vehicle Available,Maximum,Tier 5,0.0912361020274689
+No Vehicle Available,Average,Tier 6,0.04486447515165105
+No Vehicle Available,Standard Deviation,Tier 6,0.010754133906231046
+No Vehicle Available,Minimum,Tier 6,0.0298198636806231
+No Vehicle Available,Maximum,Tier 6,0.0702534459759893
+Housing Cost Burden,Average,Tier 1,0.1015470902483871
+Housing Cost Burden,Standard Deviation,Tier 1,0.03702678960002548
+Housing Cost Burden,Minimum,Tier 1,0.027084215
+Housing Cost Burden,Maximum,Tier 1,0.2149356606
+Housing Cost Burden,Average,Tier 2,0.10193215615555555
+Housing Cost Burden,Standard Deviation,Tier 2,0.029402416075096867
+Housing Cost Burden,Minimum,Tier 2,0.0222222222
+Housing Cost Burden,Maximum,Tier 2,0.2173323694
+Housing Cost Burden,Average,Tier 3,0.10618875308270141
+Housing Cost Burden,Standard Deviation,Tier 3,0.028854875783345946
+Housing Cost Burden,Minimum,Tier 3,0.0223880597
+Housing Cost Burden,Maximum,Tier 3,0.2242121407
+Housing Cost Burden,Average,Tier 4,0.11495943605671642
+Housing Cost Burden,Standard Deviation,Tier 4,0.028689056691322715
+Housing Cost Burden,Minimum,Tier 4,0.0452284034
+Housing Cost Burden,Maximum,Tier 4,0.2194904592
+Housing Cost Burden,Average,Tier 5,0.12319129213203885
+Housing Cost Burden,Standard Deviation,Tier 5,0.03745230387091068
+Housing Cost Burden,Minimum,Tier 5,0.0216855594
+Housing Cost Burden,Maximum,Tier 5,0.2401987852
+Housing Cost Burden,Average,Tier 6,0.13342288216551723
+Housing Cost Burden,Standard Deviation,Tier 6,0.04872757092081116
+Housing Cost Burden,Minimum,Tier 6,0.0636042403
+Housing Cost Burden,Maximum,Tier 6,0.2284956423
+Ratio of population to primary care physicians,Average,Tier 1,1660.9164806736208
+Ratio of population to primary care physicians,Standard Deviation,Tier 1,1105.987954492005
+Ratio of population to primary care physicians,Minimum,Tier 1,-1476.0
+Ratio of population to primary care physicians,Maximum,Tier 1,6255.0
+Ratio of population to primary care physicians,Average,Tier 2,2282.259185397152
+Ratio of population to primary care physicians,Standard Deviation,Tier 2,1793.443770325875
+Ratio of population to primary care physicians,Minimum,Tier 2,-1636.0
+Ratio of population to primary care physicians,Maximum,Tier 2,12773.0
+Ratio of population to primary care physicians,Average,Tier 3,2818.265666434163
+Ratio of population to primary care physicians,Standard Deviation,Tier 3,1705.2821410613417
+Ratio of population to primary care physicians,Minimum,Tier 3,-608.0
+Ratio of population to primary care physicians,Maximum,Tier 3,13463.0
+Ratio of population to primary care physicians,Average,Tier 4,4148.38250540408
+Ratio of population to primary care physicians,Standard Deviation,Tier 4,3437.524427004847
+Ratio of population to primary care physicians,Minimum,Tier 4,-1558.0
+Ratio of population to primary care physicians,Maximum,Tier 4,25106.0
+Ratio of population to primary care physicians,Average,Tier 5,4605.4969026144445
+Ratio of population to primary care physicians,Standard Deviation,Tier 5,3518.1064951360304
+Ratio of population to primary care physicians,Minimum,Tier 5,-1908.0
+Ratio of population to primary care physicians,Maximum,Tier 5,18762.0
+Ratio of population to primary care physicians,Average,Tier 6,3462.2029846913038
+Ratio of population to primary care physicians,Standard Deviation,Tier 6,3888.984306658145
+Ratio of population to primary care physicians,Minimum,Tier 6,-1923.0
+Ratio of population to primary care physicians,Maximum,Tier 6,16892.0
+Mental Health Providers,Average,Tier 1,0.0027397448894736845
+Mental Health Providers,Standard Deviation,Tier 1,0.002067406780767311
+Mental Health Providers,Minimum,Tier 1,0.0001749169
+Mental Health Providers,Maximum,Tier 1,0.0107240965
+Mental Health Providers,Average,Tier 2,0.0021415860334405143
+Mental Health Providers,Standard Deviation,Tier 2,0.0016113497280741572
+Mental Health Providers,Minimum,Tier 2,0.0
+Mental Health Providers,Maximum,Tier 2,0.01
+Mental Health Providers,Average,Tier 3,0.0018478102579710146
+Mental Health Providers,Standard Deviation,Tier 3,0.0018190418510437077
+Mental Health Providers,Minimum,Tier 3,4.33952e-05
+Mental Health Providers,Maximum,Tier 3,0.0142237223
+Mental Health Providers,Average,Tier 4,0.001650613256923077
+Mental Health Providers,Standard Deviation,Tier 4,0.0029769322377043257
+Mental Health Providers,Minimum,Tier 4,5.69801e-05
+Mental Health Providers,Maximum,Tier 4,0.0340785637
+Mental Health Providers,Average,Tier 5,0.0014154203395833334
+Mental Health Providers,Standard Deviation,Tier 5,0.0021330795730563584
+Mental Health Providers,Minimum,Tier 5,0.0
+Mental Health Providers,Maximum,Tier 5,0.0142756845
+Mental Health Providers,Average,Tier 6,0.001373848824
+Mental Health Providers,Standard Deviation,Tier 6,0.0013674531673588347
+Mental Health Providers,Minimum,Tier 6,9.94135e-05
+Mental Health Providers,Maximum,Tier 6,0.0052691005
+Drinking Water Violations,Average,Tier 1,0.4032258064516129
+Drinking Water Violations,Standard Deviation,Tier 1,0.4945498837527219
+Drinking Water Violations,Minimum,Tier 1,0.0
+Drinking Water Violations,Maximum,Tier 1,1.0
+Drinking Water Violations,Average,Tier 2,0.36645962732919257
+Drinking Water Violations,Standard Deviation,Tier 2,0.4825870185284691
+Drinking Water Violations,Minimum,Tier 2,0.0
+Drinking Water Violations,Maximum,Tier 2,1.0
+Drinking Water Violations,Average,Tier 3,0.34360189573459715
+Drinking Water Violations,Standard Deviation,Tier 3,0.47547382322896614
+Drinking Water Violations,Minimum,Tier 3,0.0
+Drinking Water Violations,Maximum,Tier 3,1.0
+Drinking Water Violations,Average,Tier 4,0.36059479553903345
+Drinking Water Violations,Standard Deviation,Tier 4,0.48106809348555574
+Drinking Water Violations,Minimum,Tier 4,0.0
+Drinking Water Violations,Maximum,Tier 4,1.0
+Drinking Water Violations,Average,Tier 5,0.32038834951456313
+Drinking Water Violations,Standard Deviation,Tier 5,0.4689076215098175
+Drinking Water Violations,Minimum,Tier 5,0.0
+Drinking Water Violations,Maximum,Tier 5,1.0
+Drinking Water Violations,Average,Tier 6,0.4482758620689655
+Drinking Water Violations,Standard Deviation,Tier 6,0.5061201788784757
+Drinking Water Violations,Minimum,Tier 6,0.0
+Drinking Water Violations,Maximum,Tier 6,1.0
+Food Insecurity,Average,Tier 1,0.07388709677419356
+Food Insecurity,Standard Deviation,Tier 1,0.016462679939103674
+Food Insecurity,Minimum,Tier 1,0.036
+Food Insecurity,Maximum,Tier 1,0.106
+Food Insecurity,Average,Tier 2,0.10189506172839508
+Food Insecurity,Standard Deviation,Tier 2,0.01916559999624306
+Food Insecurity,Minimum,Tier 2,0.035
+Food Insecurity,Maximum,Tier 2,0.15
+Food Insecurity,Average,Tier 3,0.13129857819905214
+Food Insecurity,Standard Deviation,Tier 3,0.019713047100897
+Food Insecurity,Minimum,Tier 3,0.063
+Food Insecurity,Maximum,Tier 3,0.185
+Food Insecurity,Average,Tier 4,0.15456877323420073
+Food Insecurity,Standard Deviation,Tier 4,0.02154533381756536
+Food Insecurity,Minimum,Tier 4,0.089
+Food Insecurity,Maximum,Tier 4,0.214
+Food Insecurity,Average,Tier 5,0.1750485436893204
+Food Insecurity,Standard Deviation,Tier 5,0.025719977221034307
+Food Insecurity,Minimum,Tier 5,0.107
+Food Insecurity,Maximum,Tier 5,0.23
+Food Insecurity,Average,Tier 6,0.1993793103448276
+Food Insecurity,Standard Deviation,Tier 6,0.03532139557296221
+Food Insecurity,Minimum,Tier 6,0.126
+Food Insecurity,Maximum,Tier 6,0.254
+Natural Disaster Risk,Average,Tier 1,0.5027352129155419
+Natural Disaster Risk,Standard Deviation,Tier 1,0.23116449383988144
+Natural Disaster Risk,Minimum,Tier 1,0.0311804008908685
+Natural Disaster Risk,Maximum,Tier 1,0.9548202354438432
+Natural Disaster Risk,Average,Tier 2,0.4503069725786875
+Natural Disaster Risk,Standard Deviation,Tier 2,0.2556601164677173
+Natural Disaster Risk,Minimum,Tier 2,0.0066815144766147
+Natural Disaster Risk,Maximum,Tier 2,0.9758192809417754
+Natural Disaster Risk,Average,Tier 3,0.4527363146569598
+Natural Disaster Risk,Standard Deviation,Tier 3,0.2620580395993146
+Natural Disaster Risk,Minimum,Tier 3,0.0050906776964683
+Natural Disaster Risk,Maximum,Tier 3,0.9700922685332484
+Natural Disaster Risk,Average,Tier 4,0.46886986718582746
+Natural Disaster Risk,Standard Deviation,Tier 4,0.26849370994128924
+Natural Disaster Risk,Minimum,Tier 4,0.0073178491886732
+Natural Disaster Risk,Maximum,Tier 4,0.9471842188991408
+Natural Disaster Risk,Average,Tier 5,0.4181491309088775
+Natural Disaster Risk,Standard Deviation,Tier 5,0.24330624373316712
+Natural Disaster Risk,Minimum,Tier 5,0.0022271714922049
+Natural Disaster Risk,Maximum,Tier 5,0.943684377982819
+Natural Disaster Risk,Average,Tier 6,0.3640163691619033
+Natural Disaster Risk,Standard Deviation,Tier 6,0.21798463579433297
+Natural Disaster Risk,Minimum,Tier 6,0.0693604836143811
+Natural Disaster Risk,Maximum,Tier 6,0.8421889914094813

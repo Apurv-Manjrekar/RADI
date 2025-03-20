@@ -1,0 +1,433 @@
+Variable,Metric,RUCC_Tier,Value
+Median Income,Average,4.0,61949.95294117647
+Median Income,Standard Deviation,4.0,10111.349612779453
+Median Income,Minimum,4.0,36810.0
+Median Income,Maximum,4.0,93944.0
+Median Income,Average,5.0,63974.59701492537
+Median Income,Standard Deviation,5.0,13074.62925954447
+Median Income,Minimum,5.0,40117.0
+Median Income,Maximum,5.0,106255.0
+Median Income,Average,6.0,58011.42910447761
+Median Income,Standard Deviation,6.0,10691.14899940784
+Median Income,Minimum,6.0,33188.0
+Median Income,Maximum,6.0,88478.0
+Median Income,Average,7.0,57886.4
+Median Income,Standard Deviation,7.0,12019.047519016134
+Median Income,Minimum,7.0,32403.0
+Median Income,Maximum,7.0,104803.0
+Median Income,Average,8.0,54652.39194139194
+Median Income,Standard Deviation,8.0,11069.646195502877
+Median Income,Minimum,8.0,25425.0
+Median Income,Maximum,8.0,96339.0
+Median Income,Average,9.0,53192.326848249024
+Median Income,Standard Deviation,9.0,11914.305761048478
+Median Income,Minimum,9.0,29014.0
+Median Income,Maximum,9.0,94688.0
+Poverty 18-64,Average,4.0,0.15160588235294117
+Poverty 18-64,Standard Deviation,4.0,0.04867332198325368
+Poverty 18-64,Minimum,4.0,0.07
+Poverty 18-64,Maximum,4.0,0.325
+Poverty 18-64,Average,5.0,0.1561044776119403
+Poverty 18-64,Standard Deviation,5.0,0.05814301446573243
+Poverty 18-64,Minimum,5.0,0.072
+Poverty 18-64,Maximum,5.0,0.3389999999999999
+Poverty 18-64,Average,6.0,0.15563432835820892
+Poverty 18-64,Standard Deviation,6.0,0.0515818016634073
+Poverty 18-64,Minimum,6.0,0.05
+Poverty 18-64,Maximum,6.0,0.355
+Poverty 18-64,Average,7.0,0.16009714285714285
+Poverty 18-64,Standard Deviation,7.0,0.057959029751375686
+Poverty 18-64,Minimum,7.0,0.054
+Poverty 18-64,Maximum,7.0,0.414
+Poverty 18-64,Average,8.0,0.16799999999999998
+Poverty 18-64,Standard Deviation,8.0,0.05704442283405618
+Poverty 18-64,Minimum,8.0,0.054
+Poverty 18-64,Maximum,8.0,0.354
+Poverty 18-64,Average,9.0,0.17924124513618675
+Poverty 18-64,Standard Deviation,9.0,0.07417365189839034
+Poverty 18-64,Minimum,9.0,0.024
+Poverty 18-64,Maximum,9.0,0.4639999999999999
+Unemployment,Average,4.0,0.039321478620588234
+Unemployment,Standard Deviation,4.0,0.011318234052822678
+Unemployment,Minimum,4.0,0.0183405749
+Unemployment,Maximum,4.0,0.1095137249
+Unemployment,Average,5.0,0.03587808672686567
+Unemployment,Standard Deviation,5.0,0.010840538188621244
+Unemployment,Minimum,5.0,0.0197862846
+Unemployment,Maximum,5.0,0.0602814492
+Unemployment,Average,6.0,0.03883722951567164
+Unemployment,Standard Deviation,6.0,0.011742137470267623
+Unemployment,Minimum,6.0,0.0186550591
+Unemployment,Maximum,6.0,0.116035613
+Unemployment,Average,7.0,0.03865772764514286
+Unemployment,Standard Deviation,7.0,0.012368877632726996
+Unemployment,Minimum,7.0,0.017936468
+Unemployment,Maximum,7.0,0.0857142857
+Unemployment,Average,8.0,0.03957035274029304
+Unemployment,Standard Deviation,8.0,0.013252166517451496
+Unemployment,Minimum,8.0,0.0177383592
+Unemployment,Maximum,8.0,0.0963484382
+Unemployment,Average,9.0,0.04022301617198444
+Unemployment,Standard Deviation,9.0,0.015572147585844858
+Unemployment,Minimum,9.0,0.0133748056
+Unemployment,Maximum,9.0,0.1300160514
+Lacking Complete Plumbing Facilities,Average,4.0,0.015315196767733089
+Lacking Complete Plumbing Facilities,Standard Deviation,4.0,0.010852932955303747
+Lacking Complete Plumbing Facilities,Minimum,4.0,0.0012269938650306
+Lacking Complete Plumbing Facilities,Maximum,4.0,0.0631170300287947
+Lacking Complete Plumbing Facilities,Average,5.0,0.014783395178935118
+Lacking Complete Plumbing Facilities,Standard Deviation,5.0,0.012151805285058048
+Lacking Complete Plumbing Facilities,Minimum,5.0,0.0014934720817073
+Lacking Complete Plumbing Facilities,Maximum,5.0,0.0714588135672954
+Lacking Complete Plumbing Facilities,Average,6.0,0.020698390326320672
+Lacking Complete Plumbing Facilities,Standard Deviation,6.0,0.0139472260442128
+Lacking Complete Plumbing Facilities,Minimum,6.0,0.002086254659872
+Lacking Complete Plumbing Facilities,Maximum,6.0,0.0834508348794063
+Lacking Complete Plumbing Facilities,Average,7.0,0.023786862273135045
+Lacking Complete Plumbing Facilities,Standard Deviation,7.0,0.01619470976372072
+Lacking Complete Plumbing Facilities,Minimum,7.0,0.0008435970980259
+Lacking Complete Plumbing Facilities,Maximum,7.0,0.0917407213800313
+Lacking Complete Plumbing Facilities,Average,8.0,0.03336843478890877
+Lacking Complete Plumbing Facilities,Standard Deviation,8.0,0.025399561504053373
+Lacking Complete Plumbing Facilities,Minimum,8.0,0.0022657054582904
+Lacking Complete Plumbing Facilities,Maximum,8.0,0.2047745358090185
+Lacking Complete Plumbing Facilities,Average,9.0,0.03966603395829569
+Lacking Complete Plumbing Facilities,Standard Deviation,9.0,0.028879040385779015
+Lacking Complete Plumbing Facilities,Minimum,9.0,0.0017282010997643
+Lacking Complete Plumbing Facilities,Maximum,9.0,0.229062924400181
+65+,Average,4.0,0.19294373816110189
+65+,Standard Deviation,4.0,0.0391203644193996
+65+,Minimum,4.0,0.0518226135040745
+65+,Maximum,4.0,0.313151349138881
+65+,Average,5.0,0.17698944824443144
+65+,Standard Deviation,5.0,0.04237898964172985
+65+,Minimum,5.0,0.0958269220073784
+65+,Maximum,5.0,0.3139386928860613
+65+,Average,6.0,0.19929056576198836
+65+,Standard Deviation,6.0,0.03494101988931186
+65+,Minimum,6.0,0.1166929058728114
+65+,Maximum,6.0,0.3717208814270724
+65+,Average,7.0,0.20585123217585286
+65+,Standard Deviation,7.0,0.04431820488941034
+65+,Minimum,7.0,0.1051128382807378
+65+,Maximum,7.0,0.3536316637003135
+65+,Average,8.0,0.22027146951583002
+65+,Standard Deviation,8.0,0.043085713286276806
+65+,Minimum,8.0,0.0850304429981104
+65+,Maximum,8.0,0.3758705448586645
+65+,Average,9.0,0.22492117004839357
+65+,Standard Deviation,9.0,0.05063995394251054
+65+,Minimum,9.0,0.078524945770065
+65+,Maximum,9.0,0.4282727985367128
+White Population,Average,4.0,0.7835601750170909
+White Population,Standard Deviation,4.0,0.1511096527361568
+White Population,Minimum,4.0,0.2488278203029238
+White Population,Maximum,4.0,0.960286113385675
+White Population,Average,5.0,0.7510667036217795
+White Population,Standard Deviation,5.0,0.17719237014798617
+White Population,Minimum,5.0,0.1002148073893741
+White Population,Maximum,5.0,0.9558241233998568
+White Population,Average,6.0,0.766169842990438
+White Population,Standard Deviation,6.0,0.174709518322393
+White Population,Minimum,6.0,0.2004258058127444
+White Population,Maximum,6.0,0.9732085834717078
+White Population,Average,7.0,0.8037668124328726
+White Population,Standard Deviation,7.0,0.15760324861776098
+White Population,Minimum,7.0,0.2392890250292209
+White Population,Maximum,7.0,0.9759849047973012
+White Population,Average,8.0,0.7777491663509785
+White Population,Standard Deviation,8.0,0.2032934994684149
+White Population,Minimum,8.0,0.1099375354911981
+White Population,Maximum,8.0,0.9904959181186792
+White Population,Average,9.0,0.7876152581310654
+White Population,Standard Deviation,9.0,0.20418998931985388
+White Population,Minimum,9.0,0.0818872017353579
+White Population,Maximum,9.0,1.032453637660485
+Percent Less Than High School Graduate,Average,4.0,0.1383470588235294
+Percent Less Than High School Graduate,Standard Deviation,4.0,0.05683290797740439
+Percent Less Than High School Graduate,Minimum,4.0,0.017
+Percent Less Than High School Graduate,Maximum,4.0,0.3279999999999999
+Percent Less Than High School Graduate,Average,5.0,0.1306865671641791
+Percent Less Than High School Graduate,Standard Deviation,5.0,0.05389951620495305
+Percent Less Than High School Graduate,Minimum,5.0,0.0139999999999999
+Percent Less Than High School Graduate,Maximum,5.0,0.249
+Percent Less Than High School Graduate,Average,6.0,0.1610559701492537
+Percent Less Than High School Graduate,Standard Deviation,6.0,0.05955333619424081
+Percent Less Than High School Graduate,Minimum,6.0,0.023
+Percent Less Than High School Graduate,Maximum,6.0,0.361
+Percent Less Than High School Graduate,Average,7.0,0.15977142857142856
+Percent Less Than High School Graduate,Standard Deviation,7.0,0.07245414154662105
+Percent Less Than High School Graduate,Minimum,7.0,0.005
+Percent Less Than High School Graduate,Maximum,7.0,0.45
+Percent Less Than High School Graduate,Average,8.0,0.18083516483516482
+Percent Less Than High School Graduate,Standard Deviation,8.0,0.09770181944873933
+Percent Less Than High School Graduate,Minimum,8.0,0.0
+Percent Less Than High School Graduate,Maximum,8.0,0.767
+Percent Less Than High School Graduate,Average,9.0,0.19625291828793773
+Percent Less Than High School Graduate,Standard Deviation,9.0,0.10471528661669201
+Percent Less Than High School Graduate,Minimum,9.0,0.0
+Percent Less Than High School Graduate,Maximum,9.0,0.773
+Uninsured,Average,4.0,0.10799236413764705
+Uninsured,Standard Deviation,4.0,0.04563487535796417
+Uninsured,Minimum,4.0,0.0279942709
+Uninsured,Maximum,4.0,0.2899728046
+Uninsured,Average,5.0,0.12005054757910448
+Uninsured,Standard Deviation,5.0,0.04925930416248463
+Uninsured,Minimum,5.0,0.0494736504
+Uninsured,Maximum,5.0,0.2448719582
+Uninsured,Average,6.0,0.12223331838059702
+Uninsured,Standard Deviation,6.0,0.050202443258273756
+Uninsured,Minimum,6.0,0.0419248719
+Uninsured,Maximum,6.0,0.2785076531
+Uninsured,Average,7.0,0.11691742425942857
+Uninsured,Standard Deviation,7.0,0.05065047127852373
+Uninsured,Minimum,7.0,0.040613661
+Uninsured,Maximum,7.0,0.2683010654
+Uninsured,Average,8.0,0.12693573002747252
+Uninsured,Standard Deviation,8.0,0.044218588810181925
+Uninsured,Minimum,8.0,0.0458988669
+Uninsured,Maximum,8.0,0.2608173077
+Uninsured,Average,9.0,0.12964886552645913
+Uninsured,Standard Deviation,9.0,0.051121412605018464
+Uninsured,Minimum,9.0,0.048282017
+Uninsured,Maximum,9.0,0.3871244635
+Percent With Internet,Average,4.0,0.8346618375570589
+Percent With Internet,Standard Deviation,4.0,0.04924167512485196
+Percent With Internet,Minimum,4.0,0.6667659765
+Percent With Internet,Maximum,4.0,0.9349822525
+Percent With Internet,Average,5.0,0.8366566323179104
+Percent With Internet,Standard Deviation,5.0,0.06965110839576957
+Percent With Internet,Minimum,5.0,0.523549945
+Percent With Internet,Maximum,5.0,0.9502589126
+Percent With Internet,Average,6.0,0.8005011690533582
+Percent With Internet,Standard Deviation,6.0,0.0632790497115235
+Percent With Internet,Minimum,6.0,0.5435089845
+Percent With Internet,Maximum,6.0,0.9072380035
+Percent With Internet,Average,7.0,0.8161633026422858
+Percent With Internet,Standard Deviation,7.0,0.05739649461518039
+Percent With Internet,Minimum,7.0,0.6252328986
+Percent With Internet,Maximum,7.0,0.9495867769
+Percent With Internet,Average,8.0,0.7626355076043957
+Percent With Internet,Standard Deviation,8.0,0.07512731841929902
+Percent With Internet,Minimum,8.0,0.4733650056
+Percent With Internet,Maximum,8.0,0.9411764706
+Percent With Internet,Average,9.0,0.7670311917015564
+Percent With Internet,Standard Deviation,9.0,0.07689653987382983
+Percent With Internet,Minimum,9.0,0.3596938776
+Percent With Internet,Maximum,9.0,0.9552304965
+Long Commutes,Average,4.0,0.292
+Long Commutes,Standard Deviation,4.0,0.07576036652560939
+Long Commutes,Minimum,4.0,0.097
+Long Commutes,Maximum,4.0,0.547
+Long Commutes,Average,5.0,0.1952089552238806
+Long Commutes,Standard Deviation,5.0,0.0713188608895913
+Long Commutes,Minimum,5.0,0.074
+Long Commutes,Maximum,5.0,0.415
+Long Commutes,Average,6.0,0.3321119402985075
+Long Commutes,Standard Deviation,6.0,0.08884933680620688
+Long Commutes,Minimum,6.0,0.081
+Long Commutes,Maximum,6.0,0.606
+Long Commutes,Average,7.0,0.23338285714285714
+Long Commutes,Standard Deviation,7.0,0.07799702870009019
+Long Commutes,Minimum,7.0,0.067
+Long Commutes,Maximum,7.0,0.424
+Long Commutes,Average,8.0,0.4065567765567765
+Long Commutes,Standard Deviation,8.0,0.10132800861927406
+Long Commutes,Minimum,8.0,0.144
+Long Commutes,Maximum,8.0,0.733
+Long Commutes,Average,9.0,0.32896498054474704
+Long Commutes,Standard Deviation,9.0,0.12003161505452335
+Long Commutes,Minimum,9.0,0.019
+Long Commutes,Maximum,9.0,0.699
+Some College or Associate's Degree,Average,4.0,0.15846379998112395
+Some College or Associate's Degree,Standard Deviation,4.0,0.022088867686565483
+Some College or Associate's Degree,Minimum,4.0,0.0963244613434727
+Some College or Associate's Degree,Maximum,4.0,0.2145629355208609
+Some College or Associate's Degree,Average,5.0,0.15834355867950373
+Some College or Associate's Degree,Standard Deviation,5.0,0.02511269081719649
+Some College or Associate's Degree,Minimum,5.0,0.0929042095518161
+Some College or Associate's Degree,Maximum,5.0,0.2180432942314669
+Some College or Associate's Degree,Average,6.0,0.15372789318502633
+Some College or Associate's Degree,Standard Deviation,6.0,0.02320904071385176
+Some College or Associate's Degree,Minimum,6.0,0.0848343037492517
+Some College or Associate's Degree,Maximum,6.0,0.2126919733410605
+Some College or Associate's Degree,Average,7.0,0.16005797480675624
+Some College or Associate's Degree,Standard Deviation,7.0,0.027058660805140876
+Some College or Associate's Degree,Minimum,7.0,0.0901086956521739
+Some College or Associate's Degree,Maximum,7.0,0.2272933182332955
+Some College or Associate's Degree,Average,8.0,0.15240150582516618
+Some College or Associate's Degree,Standard Deviation,8.0,0.026892626314606653
+Some College or Associate's Degree,Minimum,8.0,0.0463355542095699
+Some College or Associate's Degree,Maximum,8.0,0.2299291971678867
+Some College or Associate's Degree,Average,9.0,0.15314797240604286
+Some College or Associate's Degree,Standard Deviation,9.0,0.029641491880791328
+Some College or Associate's Degree,Minimum,9.0,0.0718309859154929
+Some College or Associate's Degree,Maximum,9.0,0.2393196202531645
+No Vehicle Available,Average,4.0,0.025279869503590603
+No Vehicle Available,Standard Deviation,4.0,0.00921057144761499
+No Vehicle Available,Minimum,4.0,0.0072577124563445
+No Vehicle Available,Maximum,4.0,0.0632904506758778
+No Vehicle Available,Average,5.0,0.02420014572829947
+No Vehicle Available,Standard Deviation,5.0,0.008669045003446526
+No Vehicle Available,Minimum,5.0,0.0099923991027233
+No Vehicle Available,Maximum,5.0,0.0524165193758671
+No Vehicle Available,Average,6.0,0.024885380433564978
+No Vehicle Available,Standard Deviation,6.0,0.009927237235523368
+No Vehicle Available,Minimum,6.0,0.0073303974580522
+No Vehicle Available,Maximum,6.0,0.0641871321290846
+No Vehicle Available,Average,7.0,0.026596211468583947
+No Vehicle Available,Standard Deviation,7.0,0.009265719620782807
+No Vehicle Available,Minimum,7.0,0.0041824177591892
+No Vehicle Available,Maximum,7.0,0.060572399372713
+No Vehicle Available,Average,8.0,0.02505865295911201
+No Vehicle Available,Standard Deviation,8.0,0.011851693995646258
+No Vehicle Available,Minimum,8.0,0.0
+No Vehicle Available,Maximum,8.0,0.0912361020274689
+No Vehicle Available,Average,9.0,0.025434488375211475
+No Vehicle Available,Standard Deviation,9.0,0.012634175912244108
+No Vehicle Available,Minimum,9.0,0.0024693898549233
+No Vehicle Available,Maximum,9.0,0.0763760620613225
+Housing Cost Burden,Average,4.0,0.12023331178882354
+Housing Cost Burden,Standard Deviation,4.0,0.02917568897517298
+Housing Cost Burden,Minimum,4.0,0.0727818161
+Housing Cost Burden,Maximum,4.0,0.2173323694
+Housing Cost Burden,Average,5.0,0.1253604450358209
+Housing Cost Burden,Standard Deviation,5.0,0.036028896670526875
+Housing Cost Burden,Minimum,5.0,0.0523030942
+Housing Cost Burden,Maximum,5.0,0.2242121407
+Housing Cost Burden,Average,6.0,0.11037763685634328
+Housing Cost Burden,Standard Deviation,6.0,0.028282777180413693
+Housing Cost Burden,Minimum,6.0,0.0495020068
+Housing Cost Burden,Maximum,6.0,0.1922323384
+Housing Cost Burden,Average,7.0,0.111445102132
+Housing Cost Burden,Standard Deviation,7.0,0.02950091664011835
+Housing Cost Burden,Minimum,7.0,0.027084215
+Housing Cost Burden,Maximum,7.0,0.2284956423
+Housing Cost Burden,Average,8.0,0.10200352136153847
+Housing Cost Burden,Standard Deviation,8.0,0.03156322860239541
+Housing Cost Burden,Minimum,8.0,0.0216855594
+Housing Cost Burden,Maximum,8.0,0.2148217636
+Housing Cost Burden,Average,9.0,0.10090663440429687
+Housing Cost Burden,Standard Deviation,9.0,0.03294066391616226
+Housing Cost Burden,Minimum,9.0,0.0222222222
+Housing Cost Burden,Maximum,9.0,0.2401987852
+Ratio of population to primary care physicians,Average,4.0,2248.757717235
+Ratio of population to primary care physicians,Standard Deviation,4.0,1098.7954520710614
+Ratio of population to primary care physicians,Minimum,4.0,726.17647059
+Ratio of population to primary care physicians,Maximum,4.0,11994.4
+Ratio of population to primary care physicians,Average,5.0,1611.8744633749254
+Ratio of population to primary care physicians,Standard Deviation,5.0,664.3929094985567
+Ratio of population to primary care physicians,Minimum,5.0,529.8908046
+Ratio of population to primary care physicians,Maximum,5.0,3587.7333333
+Ratio of population to primary care physicians,Average,6.0,2898.6614711754683
+Ratio of population to primary care physicians,Standard Deviation,6.0,2128.7547904557764
+Ratio of population to primary care physicians,Minimum,6.0,453.90566038
+Ratio of population to primary care physicians,Maximum,6.0,25106.0
+Ratio of population to primary care physicians,Average,7.0,2024.7192873200577
+Ratio of population to primary care physicians,Standard Deviation,7.0,1029.6527842556443
+Ratio of population to primary care physicians,Minimum,7.0,572.38636364
+Ratio of population to primary care physicians,Maximum,7.0,8656.0
+Ratio of population to primary care physicians,Average,8.0,4409.234910007137
+Ratio of population to primary care physicians,Standard Deviation,8.0,3318.8968484595425
+Ratio of population to primary care physicians,Minimum,8.0,-1558.0
+Ratio of population to primary care physicians,Maximum,8.0,22807.0
+Ratio of population to primary care physicians,Average,9.0,3630.4330596152654
+Ratio of population to primary care physicians,Standard Deviation,9.0,3170.2959859808248
+Ratio of population to primary care physicians,Minimum,9.0,-1923.0
+Ratio of population to primary care physicians,Maximum,9.0,16892.0
+Mental Health Providers,Average,4.0,0.0024374101376470588
+Mental Health Providers,Standard Deviation,4.0,0.0017301537656409537
+Mental Health Providers,Minimum,4.0,0.000212999
+Mental Health Providers,Maximum,4.0,0.0107240965
+Mental Health Providers,Average,5.0,0.0030873323940298508
+Mental Health Providers,Standard Deviation,5.0,0.0016864088834232607
+Mental Health Providers,Minimum,5.0,0.0006301727
+Mental Health Providers,Maximum,5.0,0.0079798455
+Mental Health Providers,Average,6.0,0.0017335208296992482
+Mental Health Providers,Standard Deviation,6.0,0.0015281438177234534
+Mental Health Providers,Minimum,6.0,4.42615e-05
+Mental Health Providers,Maximum,6.0,0.0108336734
+Mental Health Providers,Average,7.0,0.0028773398457142855
+Mental Health Providers,Standard Deviation,7.0,0.003483224245186635
+Mental Health Providers,Minimum,7.0,9.57488e-05
+Mental Health Providers,Maximum,7.0,0.0340785637
+Mental Health Providers,Average,8.0,0.001081861459375
+Mental Health Providers,Standard Deviation,8.0,0.001185715207748763
+Mental Health Providers,Minimum,8.0,6.52997e-05
+Mental Health Providers,Maximum,8.0,0.01
+Mental Health Providers,Average,9.0,0.0014114231295652173
+Mental Health Providers,Standard Deviation,9.0,0.0020507072488038613
+Mental Health Providers,Minimum,9.0,0.0
+Mental Health Providers,Maximum,9.0,0.0167053364
+Drinking Water Violations,Average,4.0,0.4823529411764706
+Drinking Water Violations,Standard Deviation,4.0,0.501164672080539
+Drinking Water Violations,Minimum,4.0,0.0
+Drinking Water Violations,Maximum,4.0,1.0
+Drinking Water Violations,Average,5.0,0.4153846153846154
+Drinking Water Violations,Standard Deviation,5.0,0.4966232126920925
+Drinking Water Violations,Minimum,5.0,0.0
+Drinking Water Violations,Maximum,5.0,1.0
+Drinking Water Violations,Average,6.0,0.3843283582089552
+Drinking Water Violations,Standard Deviation,6.0,0.48734616935071434
+Drinking Water Violations,Minimum,6.0,0.0
+Drinking Water Violations,Maximum,6.0,1.0
+Drinking Water Violations,Average,7.0,0.3314285714285714
+Drinking Water Violations,Standard Deviation,7.0,0.47207747548166584
+Drinking Water Violations,Minimum,7.0,0.0
+Drinking Water Violations,Maximum,7.0,1.0
+Drinking Water Violations,Average,8.0,0.31135531135531136
+Drinking Water Violations,Standard Deviation,8.0,0.46389811942005665
+Drinking Water Violations,Minimum,8.0,0.0
+Drinking Water Violations,Maximum,8.0,1.0
+Drinking Water Violations,Average,9.0,0.29571984435797666
+Drinking Water Violations,Standard Deviation,9.0,0.45725613304386153
+Drinking Water Violations,Minimum,9.0,0.0
+Drinking Water Violations,Maximum,9.0,1.0
+Food Insecurity,Average,4.0,0.12238823529411766
+Food Insecurity,Standard Deviation,4.0,0.027488607265770387
+Food Insecurity,Minimum,4.0,0.06
+Food Insecurity,Maximum,4.0,0.237
+Food Insecurity,Average,5.0,0.1206716417910448
+Food Insecurity,Standard Deviation,5.0,0.03270825493974076
+Food Insecurity,Minimum,5.0,0.062
+Food Insecurity,Maximum,5.0,0.209
+Food Insecurity,Average,6.0,0.12948507462686568
+Food Insecurity,Standard Deviation,6.0,0.03139938096067359
+Food Insecurity,Minimum,6.0,0.041
+Food Insecurity,Maximum,6.0,0.229
+Food Insecurity,Average,7.0,0.13065142857142859
+Food Insecurity,Standard Deviation,7.0,0.03520904216598778
+Food Insecurity,Minimum,7.0,0.06
+Food Insecurity,Maximum,7.0,0.254
+Food Insecurity,Average,8.0,0.1331758241758242
+Food Insecurity,Standard Deviation,8.0,0.034617848615887445
+Food Insecurity,Minimum,8.0,0.035
+Food Insecurity,Maximum,8.0,0.24
+Food Insecurity,Average,9.0,0.13943579766536965
+Food Insecurity,Standard Deviation,9.0,0.04236113299383529
+Food Insecurity,Minimum,9.0,0.045
+Food Insecurity,Maximum,9.0,0.255
+Natural Disaster Risk,Average,4.0,0.6767868840186408
+Natural Disaster Risk,Standard Deviation,4.0,0.19114928577071794
+Natural Disaster Risk,Minimum,4.0,0.1705377028316894
+Natural Disaster Risk,Maximum,4.0,0.971046770601336
+Natural Disaster Risk,Average,5.0,0.6833190078877012
+Natural Disaster Risk,Standard Deviation,5.0,0.1993798124840902
+Natural Disaster Risk,Minimum,5.0,0.0467706013363029
+Natural Disaster Risk,Maximum,5.0,0.9758192809417754
+Natural Disaster Risk,Average,6.0,0.5329766218224815
+Natural Disaster Risk,Standard Deviation,6.0,0.22482549997831563
+Natural Disaster Risk,Minimum,6.0,0.0346802418071905
+Natural Disaster Risk,Maximum,6.0,0.954183900731785
+Natural Disaster Risk,Average,7.0,0.46790054997500113
+Natural Disaster Risk,Standard Deviation,7.0,0.2323426766585223
+Natural Disaster Risk,Minimum,7.0,0.0066815144766147
+Natural Disaster Risk,Maximum,7.0,0.9061406299713648
+Natural Disaster Risk,Average,8.0,0.3360896183040631
+Natural Disaster Risk,Standard Deviation,8.0,0.21800082179142566
+Natural Disaster Risk,Minimum,8.0,0.0050906776964683
+Natural Disaster Risk,Maximum,8.0,0.9338211899459116
+Natural Disaster Risk,Average,9.0,0.27631287364546747
+Natural Disaster Risk,Standard Deviation,9.0,0.20117565598115977
+Natural Disaster Risk,Minimum,9.0,0.0022271714922049
+Natural Disaster Risk,Maximum,9.0,0.895641107222399
