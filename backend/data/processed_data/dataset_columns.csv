@@ -4,6 +4,11 @@ State,rucc_df
 County_Name,rucc_df
 Attribute,rucc_df
 Value,rucc_df
+5-digit FIPS Code,irr_df
+Complete County Name,irr_df
+IRR2000,irr_df
+5-digit FIPS Code,svi_df
+SVI_2022,svi_df
 Year,hhs_df
 LocationAbbr,hhs_df
 LocationDesc,hhs_df
