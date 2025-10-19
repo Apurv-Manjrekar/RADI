@@ -1,7 +1,7 @@
 import { Layout, Menu, Button, Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import { useState, useEffect } from "react";
-import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route, Link, useLocation, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import USCountyMap from "./components/USCountyMap";
@@ -88,7 +88,6 @@ const App = () => {
           <Route path="/dataset-search" element={<DatasetSearch />} />
           <Route path="/about-us" element={<AboutUs />} />
           {/* Redirect /RADI/ to / */}
-          <Route path="/RADI/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Content>
