@@ -88,6 +88,7 @@ const App = () => {
           <Route path="/dataset-search" element={<DatasetSearch />} />
           <Route path="/about-us" element={<AboutUs />} />
           {/* Redirect /RADI/ to / */}
+          <Route path="/RADI/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Content>
