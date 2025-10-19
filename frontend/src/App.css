@@ -1,127 +1,165 @@
-/* app.css */
-#root {
-  width: 100%; /* Full width */
-  height: 100vh; /* Full height */
-  /* padding: 2rem; */
-  text-align: center;
-  background-color: #ffffff; /* White background */
-}
-
-body {
-  margin: 0;
-  display: flex;
+/* Reset unwanted layout offsets */
+.ant-layout {
+  background: #fff;
   min-height: 100vh;
-  min-width: 100vw;
-  background-color: #ffffff;
-  color: black;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+/* HEADER */
 .header {
+  background-color: #e4e4e4 !important;
+  height: 10vh;
+  width: 100%;
+  padding: 0; /* remove default AntD padding */
+  line-height: normal;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* NAVIGATION */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.logo h1 {
+  font-size: 2.2vh;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.nav-menu {
+  background: transparent;
+  border-bottom: none;
+  height: 100%;
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+/* Prevent menu overflow and ensure all items show */
+.nav-menu.ant-menu-horizontal {
+  display: flex !important;
+  align-items: center;
+  line-height: normal;
+}
+
+.nav-menu .ant-menu-overflow {
+  display: flex !important;
+  align-items: center;
+}
+
+/* Force all menu items to display (disable overflow behavior) */
+.nav-menu .ant-menu-overflow-item {
+  display: flex !important;
+  align-items: center;
+}
+
+/* Hide the overflow submenu button (...) */
+.nav-menu .ant-menu-overflow-item-rest {
+  display: none !important;
+}
+
+/* If overflow menu does appear, align it properly */
+.nav-menu .ant-menu-submenu {
+  display: flex !important;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-menu .ant-menu-submenu-title {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+  padding: 0 20px !important;
+}
+
+.nav-menu .ant-menu-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0 20px;
+  line-height: normal;
+}
+
+.nav-menu .ant-menu-item a {
+  color: #000;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #58595a; */
-  background-color: #e4e4e4;
-  color: #000000;
-  width: 100%;
-  height: 10vh;
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
-
-.header-content h1 {
-  margin: 0;
-  font-size: 3.5vh;
-  color: #000000;
-}
-
-.sidebar {
   height: 100%;
-  max-height: 100%;
-  position: fixed; /* Fix it to the left */
-  top: 0;
-  left: 0;
-  background: #58595a;
-  color: #fff;
-  transition: width 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-menu .ant-menu-item-selected a {
+  color: #1677ff;
+}
+
+.nav-menu .ant-menu-item:hover a {
+  color: #1677ff;
+}
+
+.menu-button {
+  color: #000;
+  font-size: 22px;
+}
+
+/* CONTENT */
+.content {
+  background: #fff;
+  padding: 2rem 2vw;
+  min-height: calc(100vh - 20vh); /* fill space between header and footer */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.collapse-button {
-  width: 100%;
-  height: 5%;
-  /* padding: 10px 0; */
-  text-align: center;
-  background: #e4e4e4; /* Match menu-list background */
-  color: #000;
-  font-size: 2vh;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: absolute;
-  bottom: 0; /* Stick to the bottom */
-}
-
-.collapse-button:hover {
-  background: #d1d1d1; /* Slight hover effect */
-}
-
-/* Logo container */
-.logo-container {
-  position: sticky; /* Keeps the logo fixed at the top */
-  top: 0; /* Sticks to the top of the sidebar */
-  z-index: 1000; /* Ensures the logo stays above other content */
-  background: #58595a; /* Match the sidebar background */
-  /* padding: 10px; */
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-shrink: 0;
-  width: 100%;
-  height: 10vh;
+  overflow-x: hidden;
 }
 
-.content {
-  margin-left: 15vw; /* Push content to the right */
-  /* padding: 20px; Add padding for better spacing */
-  width: calc(100vw - 15vw); /* Take full remaining width */
-  min-height: 100vh; /* Ensure it stretches to full height */
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Align content to the left */
-  justify-items: flex-start;
-  text-align: center; /* Prevent forced text centering */
-  overflow-x: hidden; /* Prevent unnecessary horizontal scroll */
-  overflow-y: auto; /* Allow vertical scrolling only if needed */
-  box-sizing: border-box; /* Ensure padding doesn't shrink the content */
-}
-
-.content.expanded {
-  margin-left: 5vw;
-  width: calc(100vw - 5vw);
-}
-
+/* FOOTER */
 .footer {
-  margin-top: auto;
-  display: flex;
-  align-items: center;
-  gap: 2vw;
-  /* padding: 1vh; */
-  width: 100%;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 1rem;
   height: 10vh;
+  display: flex;
   justify-content: center;
-  border-top: 1px solid #d1d5db;
+  align-items: center;
 }
 
-.footer img {
-  width: 9.5vh;
-  height: auto;
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 2vh;
+  }
+  .nav-container {
+    padding: 0 1rem;
+  }
+}
+
+/* Responsive menu for smaller desktop screens */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .nav-menu .ant-menu-item {
+    padding: 0 12px;
+  }
+  
+  .logo h1 {
+    font-size: 1.8vh;
+  }
 }

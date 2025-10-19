@@ -1,53 +1,98 @@
-import { Layout } from "antd";
-import { useState } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
-import Logo from "./components/Logo/Logo";
-import MenuList from "./components/MenuList/MenuList";
+import { Layout, Menu, Button, Drawer } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
+import { useState, useEffect } from "react";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import CountyMapVisualization from "./pages/CountyMapVisualization";
 import AboutUs from "./pages/AboutUs";
-import "./index.css";
+import USCountyMap from "./components/USCountyMap";
+import DatasetSearch from "./pages/DatasetSearch"; // Add this import
 import "./App.css";
+import "./index.css";
 
-
-const { Header, Content, Footer} = Layout;
+const { Header, Content, Footer } = Layout;
 
 const App = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const location = useLocation();
-  const renderHeaderContent = () => {
-    console.log("Current Route:", location.pathname);
-    if (location.pathname === "/") {
-      return <h1>RADI: Rural Access Determinant Index</h1>;
-    }
-    if (location.pathname.includes("/county-map-visualization")) {
-      return <h1>County Map Visualization</h1>;
-    }
-    if (location.pathname.includes("/about-us")) {
-      return <h1>About Us</h1>;
-    }
-    return <h1>My Application</h1>;
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const menuItems = [
+    { key: "/", label: <Link to="/">Home</Link> },
+    { key: "/county-map", label: <Link to="/county-map">County Map</Link> },
+    { key: "/dataset-search", label: <Link to="/dataset-search">Dataset Search</Link> }, // Add this
+    { key: "/about-us", label: <Link to="/about-us">About Us</Link> },
+  ];
+
+  const renderHeaderTitle = () => {
+    if (location.pathname === "/") return "RADI: Rural Access Determinant Index";
+    if (location.pathname.includes("/county-map")) return "County Map Visualization";
+    if (location.pathname.includes("/dataset-search")) return "Dataset Search"; // Add this
+    if (location.pathname.includes("/about-us")) return "About Us";
+    return "RADI";
   };
 
   return (
-    <Layout>
-      <Layout>
-        <Header className="header">
-          <div className="header-content">
-            {renderHeaderContent()} {/* Dynamically render content based on the route */}
+    <Layout style={{ minHeight: "100vh", background: "#fff" }}>
+      <Header className="header">
+        <div className="nav-container">
+          <div className="logo">
+            <h1>{renderHeaderTitle()}</h1>
           </div>
-        </Header>
-        <Content className={`content ${collapsed ? "expanded" : ""}`}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/county-map-visualization" element={<CountyMapVisualization />} />
-            <Route path="/about-us" element={<AboutUs />} />
-          </Routes>
-          <div className="footer">
-          </div>
-        </Content>
-        
-      </Layout>
+
+          {!isMobile && (
+            <Menu
+              mode="horizontal"
+              selectedKeys={[location.pathname]}
+              items={menuItems}
+              className="nav-menu"
+            />
+          )}
+
+          {isMobile && (
+            <>
+              <Button
+                type="text"
+                icon={<MenuOutlined />}
+                className="menu-button"
+                onClick={() => setDrawerOpen(true)}
+              />
+              <Drawer
+                title="Navigation"
+                placement="right"
+                onClose={() => setDrawerOpen(false)}
+                open={drawerOpen}
+              >
+                <Menu
+                  mode="vertical"
+                  selectedKeys={[location.pathname]}
+                  items={menuItems}
+                  onClick={() => setDrawerOpen(false)}
+                />
+              </Drawer>
+            </>
+          )}
+        </div>
+      </Header>
+
+      <Content className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/county-map" element={<USCountyMap />} />
+          <Route path="/dataset-search" element={<DatasetSearch />} /> {/* Add this route */}
+          <Route path="/about-us" element={<AboutUs />} />
+        </Routes>
+      </Content>
+
+      <Footer className="footer">
+        <p>© {new Date().getFullYear()} RADI — All Rights Reserved</p>
+      </Footer>
     </Layout>
   );
 };
