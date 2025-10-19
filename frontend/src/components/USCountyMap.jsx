@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
+const DATA_URL = import.meta.env.BASE_URL + 'full_final_df.csv';
 
 const USCountyMap = () => {
   const svgRef = useRef();
@@ -26,7 +27,7 @@ const USCountyMap = () => {
       d3.json(
         "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
       ),
-      d3.csv("src/assets/full_final_df.csv", d => ({
+      d3.csv(DATA_URL, d => ({
         ...d,
         FIPS: d.FIPS ? d.FIPS.toString().padStart(5, "0") : null,
         RADI: d.RADI === "" || d.RADI == null ? NaN : +d.RADI,
@@ -39,6 +40,7 @@ const USCountyMap = () => {
       setCsvData(csv);
     }).catch(err => {
       console.error("Data load error:", err);
+      console.log("DATA_URL:", DATA_URL);
     });
   }, []);
 
