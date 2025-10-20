@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route, Link, useLocation, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
-import USCountyMap from "./components/USCountyMap";
+import USCountyMap from "./pages/USCountyMap";
 import DatasetSearch from "./pages/DatasetSearch"; // Add this import
 import "./App.css";
 import "./index.css";

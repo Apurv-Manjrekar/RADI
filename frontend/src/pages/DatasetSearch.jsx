@@ -73,22 +73,32 @@ const DatasetSearch = () => {
       let aVal = a[key];
       let bVal = b[key];
 
-      // Handle NaN values
-      if (isNaN(aVal) && isNaN(bVal)) return 0;
-      if (isNaN(aVal)) return 1;
-      if (isNaN(bVal)) return -1;
+      // Handle null/undefined values
+      if (aVal == null && bVal == null) return 0;
+      if (aVal == null) return 1;
+      if (bVal == null) return -1;
 
-      // Handle numeric vs string
-      if (typeof aVal === "number" && typeof bVal === "number") {
+      // Check if both values are numbers (and not NaN)
+      const aIsNum = typeof aVal === "number" && !isNaN(aVal);
+      const bIsNum = typeof bVal === "number" && !isNaN(bVal);
+
+      if (aIsNum && bIsNum) {
         return direction === "asc" ? aVal - bVal : bVal - aVal;
       }
 
+      // Handle NaN values
+      if (!aIsNum && !bIsNum && typeof aVal === "number" && typeof bVal === "number") {
+        return 0; // Both are NaN
+      }
+      if (!aIsNum && typeof aVal === "number") return 1;
+      if (!bIsNum && typeof bVal === "number") return -1;
+
       // String comparison
-      aVal = String(aVal).toLowerCase();
-      bVal = String(bVal).toLowerCase();
+      const aStr = String(aVal).toLowerCase();
+      const bStr = String(bVal).toLowerCase();
       
-      if (aVal < bVal) return direction === "asc" ? -1 : 1;
-      if (aVal > bVal) return direction === "asc" ? 1 : -1;
+      if (aStr < bStr) return direction === "asc" ? -1 : 1;
+      if (aStr > bStr) return direction === "asc" ? 1 : -1;
       return 0;
     });
 

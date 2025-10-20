@@ -11,6 +11,7 @@ const USCountyMap = () => {
   const [csvData, setCsvData] = useState(null);
   const [selectedCounty, setSelectedCounty] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [colorMetric, setColorMetric] = useState("RADI");
 
   // Track window size
   useEffect(() => {
@@ -88,10 +89,17 @@ const USCountyMap = () => {
       .translate([width / 2, height / 2]);
     const path = d3.geoPath().projection(projection);
 
-    const radiExtent = d3.extent(csvData, d => (isNaN(d.RADI) ? undefined : d.RADI)).filter(v => v !== undefined);
+    // Get extent based on selected metric
+    const metricExtent = d3.extent(csvData, d => (isNaN(d[colorMetric]) ? undefined : d[colorMetric])).filter(v => v !== undefined);
+    
+    // Choose color scale based on metric
+    const colorInterpolator = colorMetric === "RADI" ? d3.interpolatePurples :
+                              colorMetric === "SVI" ? d3.interpolateOranges :
+                              d3.interpolateBlues;
+    
     const colorScale = d3.scaleSequential()
-      .domain(radiExtent.length ? radiExtent : [0, 1])
-      .interpolator(d3.interpolatePurples);
+      .domain(metricExtent.length ? metricExtent : [0, 1])
+      .interpolator(colorInterpolator);
 
     const tooltip = d3.select("#tooltip")
       .style("position", "absolute")
@@ -110,15 +118,15 @@ const USCountyMap = () => {
       .join("path")
       .attr("d", path)
       .attr("fill", d => {
-        const v = d.properties && d.properties.RADI;
+        const v = d.properties && d.properties[colorMetric];
         return v == null || isNaN(v) ? "#ccc" : colorScale(v);
       })
       .attr("stroke", "#fff")
       .attr("stroke-width", 0.3)
-      .style("cursor", d => (d.properties.RADI == null || isNaN(d.properties.RADI) ? "default" : "pointer"))
+      .style("cursor", d => (d.properties[colorMetric] == null || isNaN(d.properties[colorMetric]) ? "default" : "pointer"))
       .on("mousemove", (event, d) => {
         const props = d.properties || {};
-        const hasData = props.RADI != null && !isNaN(props.RADI);
+        const hasData = props[colorMetric] != null && !isNaN(props[colorMetric]);
         if (!hasData) {
           tooltip.style("opacity", 0);
           return;
@@ -138,7 +146,7 @@ const USCountyMap = () => {
       })
       .on("mouseout", () => tooltip.style("opacity", 0))
       .on("click", (event, d) => {
-        if (isNaN(d.properties.RADI)) return;
+        if (isNaN(d.properties[colorMetric])) return;
         tooltip.style("opacity", 0);
         event.preventDefault();
         event.stopPropagation();
@@ -176,7 +184,7 @@ const USCountyMap = () => {
       window.resetMapZoom = null;
     };
 
-  }, [geoData, csvData, renderKey, showMap]);
+  }, [geoData, csvData, renderKey, showMap, colorMetric]);
 
   return (
     <div
@@ -219,6 +227,47 @@ const USCountyMap = () => {
             }}
           />
           
+          {/* Metric selector dropdown */}
+          <div
+            style={{
+              position: "absolute",
+              top: 16,
+              left: 16,
+              zIndex: 1000
+            }}
+          >
+            <label
+              htmlFor="metric-select"
+              style={{
+                display: "block",
+                marginBottom: 4,
+                fontSize: 12,
+                fontWeight: "600",
+                color: "#333"
+              }}
+            >
+              Color by:
+            </label>
+            <select
+              id="metric-select"
+              value={colorMetric}
+              onChange={(e) => setColorMetric(e.target.value)}
+              style={{
+                padding: "6px 12px",
+                fontSize: 14,
+                border: "2px solid #333",
+                borderRadius: 6,
+                background: "white",
+                cursor: "pointer",
+                fontWeight: "500"
+              }}
+            >
+              <option value="RADI">RADI</option>
+              <option value="SVI">SVI</option>
+              <option value="RUCC">RUCC</option>
+            </select>
+          </div>
+
           {/* Zoom controls */}
           <div
             style={{
@@ -348,15 +397,6 @@ const USCountyMap = () => {
           <hr />
 
           <h4>Health Disparity Metrics</h4>
-          {/* 'Premature Mortality', 'Infant Mortality',
-       'Preventable Hospital Stays', 'Heart Disease Mortality',
-       'Poor or Fair Health', 'Median Income', 'No Internet', 'No College',
-       'Ratio of Mental Health Providers to Population', 'Percent Non-White',
-       'Poverty', 'No Plumbing Facilities', '65+', 'No High School',
-       'No Vehicle', 'Housing Cost Burden',
-       'Ratio of Population to Primary Care Physicians', 'Unemployment',
-       'Uninsured', 'Long Commutes', 'Drinking Water Violations',
-       'Natural Disaster Risk', 'Food Insecurity' */}
           <ul>
             <li>Premature Mortality: {selectedCounty["Premature Mortality"] ?? "N/A"}</li>
             <li>Infant Mortality: {selectedCounty["Infant Mortality"] ?? "N/A"}</li>
