@@ -94,8 +94,8 @@ const USCountyMap = () => {
     
     // Choose color scale based on metric
     const colorInterpolator = colorMetric === "RADI" ? d3.interpolatePurples :
-                              colorMetric === "SVI" ? d3.interpolateOranges :
-                              d3.interpolateBlues;
+                              colorMetric === "SVI" ? d3.interpolatePurples :
+                              d3.interpolatePurples;
     
     const colorScale = d3.scaleSequential()
       .domain(metricExtent.length ? metricExtent : [0, 1])
