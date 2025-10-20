@@ -17,6 +17,18 @@ const App = () => {
   const location = useLocation();
 
   useEffect(() => {
+    const titles = {
+      "/": "RADI – Rural Adversity and Determinants Index",
+      "/county-map": "County Map Visualization | RADI",
+      "/dataset-search": "Dataset Search | RADI",
+      "/about-us": "About Us | RADI",
+    };
+
+    document.title = titles[location.pathname] || "RADI";
+  }, [location.pathname]);
+
+
+  useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -31,9 +43,9 @@ const App = () => {
   ];
 
   const renderHeaderTitle = () => {
-    if (location.pathname === "/") return "RADI: Rural Access Determinant Index";
+    if (location.pathname === "/") return "RADI: Rural Adversity and Determinants Index";
     if (location.pathname.includes("/county-map")) return "County Map Visualization";
-    if (location.pathname.includes("/dataset-search")) return "Dataset Search"; // Add this
+    if (location.pathname.includes("/dataset-search")) return "Dataset Search";
     if (location.pathname.includes("/about-us")) return "About Us";
     return "RADI";
   };

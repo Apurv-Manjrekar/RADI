@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css"
+const APURVMANJREKAR_IMAGE_URL = import.meta.env.BASE_URL + "ApurvManjrekar.jpg";
 
 const AboutUs = () => {
   return (
@@ -23,23 +24,23 @@ const AboutUs = () => {
           <h2 className="member-name">Eashwar S.C. Krishna</h2>
           <p className="member-role">Team Lead</p>
           <p className="member-description">
-            Leads stuff idk
+            4th year undergraduate at UConn pursuing dual degrees in Sociology and Molecular Biology
           </p>
         </div>
 
         {/* Apurv Manjrekar */}
         <div className="team-card">
           <div className="image-container">
-            {/* <img
-              src={ApurvManjrekarImage}
+            <img
+              src={APURVMANJREKAR_IMAGE_URL}
               alt="Apurv Manjrekar"
               className="team-image"
-            /> */}
+            />
           </div>
           <h2 className="member-name">Apurv Manjrekar</h2>
           <p className="member-role">Programmer</p>
           <p className="member-description">
-            Programs
+            1st year Master’s student in Computer Science and Engineering with a Bachelor’s degree in Computer Science
           </p>
         </div>
 
