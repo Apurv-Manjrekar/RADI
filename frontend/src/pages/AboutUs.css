@@ -21,25 +21,13 @@
     line-height: 1.6; 
   }
   
-  /* .team-grid, .advisors-grid {
+  .team-grid, .advisors-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
     gap: 2vw;
     margin-bottom: 3rem;
     justify-content: center;
-  } */
-
-  .team-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2vw;
   }
-
-  .team-card:last-child:nth-child(odd) {
-    grid-column: 1 / -1; /* span full width */
-    justify-self: center;
-  }
-
   
   .team-card, .advisor-card {
     background: white;
