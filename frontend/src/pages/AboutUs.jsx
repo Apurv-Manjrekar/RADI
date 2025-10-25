@@ -7,11 +7,10 @@ const EASHWARKRISHNA_IMAGE_URL = import.meta.env.BASE_URL + "EashwarKrishna.jpg"
 const NICOLASARAUJO_IMAGE_URL = import.meta.env.BASE_URL + "NicolasAraujo.jpg";
 
 const AboutUs = () => {
-  // Replace these URLs with the actual LinkedIn profile URLs
   const linkedInUrls = {
-    eashwar: "https://www.linkedin.com/in/eashwar-krishna/", // Replace with actual URL
-    apurv: "https://www.linkedin.com/in/apurv-manjrekar/", // Replace with actual URL
-    nicolas: "https://www.linkedin.com/in/nicolas-araujo/" // Replace with actual URL
+    eashwar: "https://www.linkedin.com/in/eashwar-krishna-39534520a/",
+    apurv: "https://www.linkedin.com/in/arm05/",
+    nicolas: "https://www.linkedin.com/in/nicolastaraujo/"
   };
 
   return (
